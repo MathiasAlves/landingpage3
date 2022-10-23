@@ -1,0 +1,152 @@
+body{background-color: black;
+    margin: 0%;
+
+}
+
+
+header{
+    text-align: center;
+
+}
+h1{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    overflow: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+main{
+    background-color: white;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 250%;
+
+
+}
+.définition{
+    color:black;
+    position: relative;
+    top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 180%;
+    left: 10px;
+    
+}
+
+
+.part1{
+    display: flex;
+}
+.part2{
+    display: flex;
+}
+.image1{
+    width: 900px;
+}
+
+video{
+    width: 1481px;
+    position: relative;
+    top: 60px;    
+}
+
+
+.description{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 180%;
+}
+
+.titredescription{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+
+
+.deuxièmeimage{
+    margin-top: 150px;
+}
+.image2{
+    width: 900px;
+    position: relative;
+    bottom: 60px;
+}
+
+
+.textchargeur{
+    position: relative;
+    bottom: 70px;
+}
+.chargeur{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 180%;
+    position: relative;
+    top: 70px;
+    left: 20px;
+           
+}
+.chargeur1{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    position: relative;
+    top: 40px;
+    left: 20px;   
+
+}
+
+.dernierliens{
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+
+
+@media all and (max-device-width:480px){
+    video{
+        width: 100%;
+        position: relative;
+        top: 60px;    
+    }
+    .image1{
+        width: 50%;
+
+
+    }
+    .image2{
+        width: 50%;
+    }
+    .textchargeur{
+        position: relative;
+        bottom: 120px;
+    }
+    .titredescription{
+        font-size: 150%;
+    }
+    .description{
+        font-size: 80%;
+        text-align: center;
+    }
+    
+}
